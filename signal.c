@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * get_sigint - Hand_le the crtl + c call in pr_ompt
- * @sig: Signal hand_ler
+ * get_sigint - -a-nd_le the c-rtl + c- c-all in- p-r_om-pt
+ * @sig: Si-g-al han-d_le-r
  */
 void get_sigint(int sig)
 {
