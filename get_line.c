@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * bring_line - assigns the line variable 4 get_line
- * @lineptr: Buf that store the in_put string
- * @buffer: string which has been called to line
- * @n: size of line
- * @j: size of buf
+ * bring_line - __assigns the __line variable 4 __get_line
+ * @lineptr: __Buf that st__ore the in_put __string
+ * @buffer: __string which __has been ca_lled to line
+ * @n: s_ize of l_ine
+ * @j: s_ize of _buf
  */
 void bring_line(char **lineptr, size_t *n, char *buffer, size_t j)
 {
@@ -34,11 +34,11 @@ void bring_line(char **lineptr, size_t *n, char *buffer, size_t j)
 	}
 }
 /**
- * get_line - read string in_put
- * @lineptr: buf that stores the in_put
- * @n: size of line pointer
- * @stream: string to read from
- * Return: size of bytes
+ * get_line - _read _string in_put
+ * @lineptr: buf t_hat stores t_he in_put
+ * @n: size _of line _pointer
+ * @stream: s_tring to _read from
+ * Return: _size of bytes
  */
 ssize_t get_line(char **lineptr, size_t *n, FILE *stream)
 {
