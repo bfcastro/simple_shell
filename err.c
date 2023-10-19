@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * strcat_cd - concatenates msg for change directory error msg
+ * strcat_cd - _concatenates msg for c_hangedirectory e_rror _msg
  *
- * @datash:  relevant data (directory)
- * @msg: output msg error
- * @error: output msg
- * @ver_str: counter lines
- * Return: error msg
+ * @datash:  _relevant _data (directory)
+ * @msg: _output _msg _error
+ * @error: _output msg
+ * @ver_str: _counter _lines
+ * Return: _error _msg
  */
 char *strcat_cd(data_shell *datash, char *msg, char *error, char *ver_str)
 {
@@ -39,9 +39,9 @@ char *strcat_cd(data_shell *datash, char *msg, char *error, char *ver_str)
 }
 
 /**
- * error_get_cd - error msg for cd command in get_cd
- * @datash: relevant data (directory)
- * Return: Error message
+ * error_get_cd - _error msg for cd _command in get_cd
+ * @datash: _relevant d_ata (di_rectory)
+ * Return: _Error _message
  */
 char *error_get_cd(data_shell *datash)
 {
@@ -78,9 +78,9 @@ char *error_get_cd(data_shell *datash)
 }
 
 /**
- * error_not_found - generic error msg for command not found
- * @datash: relevant data (counter, arguments)
- * Return: Error msg
+ * error_not_found - g_eneric _error msg for c_ommand not _found
+ * @datash: _relevant _data (_counter, _arguments)
+ * Return: _Error_msg
  */
 char *error_not_found(data_shell *datash)
 {
@@ -110,10 +110,10 @@ char *error_not_found(data_shell *datash)
 }
 
 /**
- * error_exit_shell - generic error msg for exit in get_exit
- * @datash: relevant data (counter, arguments)
+ * error_exit_shell - _generic _error _msg for _exit in _get_exit
+ * @datash: _relevant data (counter, arguments)
  *
- * Return: Error msg
+ * Return: _Error msg
  */
 char *error_exit_shell(data_shell *datash)
 {
