@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * exit_shell - exits the shell cmd
+ * exit_shell - _exits t_he s_hell cmd
  *
- * @datash: relevant data (status and args)
+ * @datash: r_elevant da_ta (sta_tus and ar_gs)
  * Return: 0 on success.
  */
 int exit_shell(data_shell *datash)
