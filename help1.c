@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * aux_help - Help infor_mation for the built_in help.
- * Return: void
+ * aux_help - _Help infor_ma__tion for the b_uilt_in h_elp.
+ * Return: __void
  */
 void aux_help(void)
 {
@@ -15,7 +15,7 @@ void aux_help(void)
 	write(STDOUT_FILENO, help, _strlen(help));
 }
 /**
- * aux_help_alias - Help infor_mation for the built_in alias.
+ * aux_help_alias - __Help __infor_mation for t_he __built_in __alias.
  * Return: void
  */
 void aux_help_alias(void)
@@ -27,8 +27,8 @@ void aux_help_alias(void)
 	write(STDOUT_FILENO, help, _strlen(help));
 }
 /**
- * aux_help_cd - Help infor_mation for the built_in alias.
- * Return: void
+ * aux_help_cd - __Help infor_mation for __the built_in alias.
+ * Return: __void
  */
 void aux_help_cd(void)
 {
