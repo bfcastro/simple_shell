@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * check_env - checks if input var is environment var
+ * check_env - _checks if i_nput var is _environment var
  *
- * @h: head of linked list
- * @in: string input
- * @data: data structure
- * Return: void
+ * @h: _head of _linked list
+ * @in: _string _input
+ * @data: _data structure
+ * Return: _void
  */
 void check_env(r_var **h, char *in, data_shell *data)
 {
@@ -44,11 +44,11 @@ void check_env(r_var **h, char *in, data_shell *data)
 /**
  * check_vars - check for variables is $$ or $?
  *
- * @h: head of the linked list
- * @in: in_put string
- * @st: last status Shell
- * @data: data structure
- * Return: void
+ * @h: _head of _the _linked list
+ * @in: in_put str__ing
+ * @st: __last __status Shell
+ * @data: d_ata __structure
+ * Return: __void
  */
 int check_vars(r_var **h, char *in, char *st, data_shell *data)
 {
@@ -84,13 +84,13 @@ int check_vars(r_var **h, char *in, char *st, data_shell *data)
 }
 
 /**
- * replaced_input - replaces str into vars
+ * replaced_input - __replaces __str into vars
  *
- * @head: head of the linked list
+ * @head: __head of the __linked list
  * @input: in_put str
- * @new_input: new in_put str (replaced)
- * @nlen: new leng_th
- * Return: replaced str
+ * @new_input: _new in_put str (replaced)
+ * @nlen: __new leng_th
+ * Return: __replaced str
  */
 char *replaced_input(r_var **head, char *input, char *new_input, int nlen)
 {
@@ -136,11 +136,11 @@ char *replaced_input(r_var **head, char *input, char *new_input, int nlen)
 }
 
 /**
- * rep_var - calls functions to replace str into variables
+ * rep_var - __calls _functions to repla_ce st_r in_to var_-iables
  *
- * @input: in_put str
- * @datash: data structure
- * Return: replaced str
+ * @input: in___put s_tr
+ * @datash: da_-ta stru__cture
+ * Return: repl___aced s__tr
  */
 char *rep_var(char *input, data_shell *datash)
 {
