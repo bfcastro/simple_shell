@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * exec_line - finds built-ins and commands
+ * exec_line - _finds _builtins and _commands
  *
- * @datash: relevant data (args)
- * Return: 1 on success.
+ * @datash: _relevant _data (args)
+ * Return: 1 on _success.
  */
 int exec_line(data_shell *datash)
 {
