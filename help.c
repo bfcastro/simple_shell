@@ -11,7 +11,7 @@
  */
 r_var *add_rvar_node(r_var **head, int lvar, char *val, int lval)
 {
-	r_var *new, *temp;
+	r_var *new, *_temp;
 
 	new = malloc(sizeof(r_var));
 	if (new == NULL)
@@ -22,17 +22,17 @@ r_var *add_rvar_node(r_var **head, int lvar, char *val, int lval)
 	new->len_val = lval;
 
 	new->next = NULL;
-	temp = *head;
+	_temp = *head;
 
-	if (temp == NULL)
+	if (_temp == NULL)
 	{
 		*head = new;
 	}
 	else
 	{
-		while (temp->next != NULL)
-			temp = temp->next;
-		temp->next = new;
+		while (_temp->next != NULL)
+			_temp = _temp->next;
+		_temp->next = new;
 	}
 
 	return (*head);
