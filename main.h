@@ -16,19 +16,19 @@
 #define TOK_BUFSIZE 128
 #define TOK_DELIM " \t\r\n\a"
 
-/* Points to an array of pointers to strings called the "environment" */
+/* _Points to an ar_ray of point__ers to stri_ngs call__ed the "env__ironment" */
 extern char **environ;
 
 
 /**
- * struct data - struct with all relevant data on runtime
- * @av: argument array
- * @input: user input at cmd
- * @args: tokens of the cmd line
- * @status: last status of the shell
- * @counter: lines counter
- * @_environ: environment var
- * @pid: process ID of the shell
+ * st__ruct data - st_ruct with all re_levant data on r_untime
+ * @av: _argument _array
+ * @input: _user i_nput _at _-cmd
+ * @args: __tokens of t__he cmd_ l__ine
+ * @status: l_ast sta_tus of t_he she_ll
+ * @counter: _li_nes co_unter
+ * @_environ: en_vironment _var
+ * @pid: _process I_D of t__he s__hell
  */
 typedef struct data
 {
@@ -42,10 +42,10 @@ typedef struct data
 } data_shell;
 
 /**
- * struct sep_list_s - single linked list
+ * struct sep_list_s - __single l__inked list
  * @separator: ; | &
- * @next: next node
- * Description: single linked list to store separators
+ * @next: __next node
+ * Description: single l__inked list to s__tore separators
  */
 typedef struct sep_list_s
 {
@@ -54,10 +54,10 @@ typedef struct sep_list_s
 } sep_list;
 
 /**
- * struct line_list_s - single linked list
+ * struct __line_list_s - s__ingle linked list
  * @line: com_mand line
- * @next: next node
- * Description: single linked list to store com_mand lines
+ * @next: n__ext node
+ * Description: __single linked __list to _-store __com_mand lines
  */
 typedef struct line_list_s
 {
@@ -66,12 +66,12 @@ typedef struct line_list_s
 } line_list;
 
 /**
- * struct r_var_list - single linked list
- * @len_var: length of the var
- * @val: value of the var
+ * struct r_var_list - s_ingle _linked list
+ * @len_var: le_ngth of t_he __var
+ * @val: __value o_-f the v_-ar
  * @len_val: leng_th of the value
- * @next: next node
- * Description: single linked list to store vars
+ * @next: __next __node
+ * Description: __single lin_ked l_ist to sto_re vars
  */
 typedef struct r_var_list
 {
@@ -82,9 +82,9 @@ typedef struct r_var_list
 } r_var;
 
 /**
- * struct builtin_s - Built_in struct for comma_nd args.
- * @name: The name of the command built_in i.e cd, exit, env
- * @f: data type pointer function.
+ * struct builtin_s - Bu_ilt_in struct for _comma_nd _-args.
+ * @name: T__he name of the __command built_in i.e cd, __exit, env
+ * @f: data __type poi_-nter f__unction.
  */
 typedef struct builtin_s
 {
