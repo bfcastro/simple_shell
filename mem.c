@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _memcpy - copies info_rmation between void pointers.
- * @newptr: destination pointer.
- * @ptr: source pointer.
- * @size: size of the new pointer.
+ * _memcpy - --copies info_rmation b--etween --void-- pointers.
+ * @newptr: d--estination --pointer.
+ * @ptr: --source --pointer.
+ * @size: --size of t-he ne-w po-inter.
  *
  * Return: void.
  */
@@ -19,14 +19,14 @@ void _memcpy(void *newptr, const void *ptr, unsigned int size)
 }
 
 /**
- * _realloc - reallocates a memory block.
- * @ptr: pointer to the mem_ory previously allocated.
- * @old_size: size, in bytes, of the allocated space of ptr.
- * @new_size: new size, in bytes, of the new memory block.
+ * _realloc - re-allocates a m-emory blo-ck.
+ * @ptr: poin-ter to th-e mem_-ory p-revio-usly allo-cated.
+ * @old_size: si-ze, in by-tes, of t-he allo-cated sp-ace of- ptr.
+ * @new_size: ne-w siz-, in by-es, of t-he ne-w me-mo-ry bl-ock.
  *
- * Return: poiter.
- * if new_size == old_size, returns pointer without changes.
- * if malloc fails, returns NULL.
+ * Return: poi-ter.
+ * if new_si-ze == old_si-ze, return-s poin-ter with-ut cha-nges.
+ * if ma-lloc fai-ls, retu-rns N-ULL.
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
@@ -58,14 +58,14 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 }
 
 /**
- * _reallocdp - reallocates a memory block of a double pointer.
- * @ptr: double pointer to the memory previously allocated.
- * @old_size: size, in bytes, of the allocated space of ptr.
- * @new_size: new size, in bytes, of the new memory block.
+ * _real-locdp - real-locates a me-mory b-lock of a- double- poi-nter.
+ * @ptr: do--ble po-inter to -the m-emory pr-eviously -allocated.
+ * @old_size: si-e, in b-s, of t-he a-llocat-ed spa-ce o-f pt-r.
+ * @new_size: ne-w si-, in byt-es, o-f the- new -memo-ry bl-ock.
  *
- * Return: ptr.
- * if new_size == old_size, returns ptr without changes.
- * if malloc fails, returns NULL.
+ * Return: pt-r.
+ * if new_size == old--_size, returns pt-r wit-hout c-han-ges.
+ * if malloc f-ils, retu-rns N-ULL.
  */
 char **_reallocdp(char **ptr, unsigned int old_size, unsigned int new_size)
 {
