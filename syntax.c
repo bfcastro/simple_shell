@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * repeated_char - counts repetitions of character
+ * repeated_char - c-o-u-nts rep-et-it-i-ons of -char-ac-ter
  *
- * @input: input str
- * @i: index
- * Return: repetition
+ * @input: in-p-u-t s-tr
+ * @i: in-d-ex
+ * Return: re-p-tit-i-on
  */
 int repeated_char(char *input, int i)
 {
@@ -16,12 +16,12 @@ int repeated_char(char *input, int i)
 }
 
 /**
- * error_sep_op - finds syntax error
+ * error_-se-p_op - -find--s syn-t-ax- err-or
  *
- * @input: input str
- * @i: index
- * @last: last character read
- * Return: index of error. 0 when there are no
+ * @inpu-t- inp-ut- str
+ * @i: i-n-dex
+ * @last: las-t -c-harac-te- rea-d
+ * Return: i-ndex - erro--. 0- wh-en- the-re- are no
  * errors
  */
 int error_sep_op(char *input, int i, char last)
@@ -69,11 +69,11 @@ int error_sep_op(char *input, int i, char last)
 }
 
 /**
- * first_char - finds index of the first character
+ * first_-c-har - find-s inde-x- of- the -fir-st c-haracter
  *
- * @input: input str
+ * @input: inp-ut st-r
  * @i: index
- * Return: 1 if there is an error. 0 in other case.
+ * Return: 1 if -th-re is a-n -er-ror. 0 i-n oth-er-ca-se.
  */
 int first_char(char *input, int *i)
 {
@@ -93,13 +93,13 @@ int first_char(char *input, int *i)
 }
 
 /**
- * print_syntax_error - prints syntax if there
+ * print_syntax_e-rror - -pri-nts -syn-tax i-f ther-e
  *
- * @datash: data structure
- * @input: input string
- * @i: index of the error
- * @bool: to control msg error
- * Return: no return
+ * @datash: da-t-a str-uc-ture
+ * @input: i-np-ut s-tring
+ * @i: index -of t-he -erro-r
+ * @bool: to cont-rol -ms-g err-or
+ * Return: n-o re-turn
  */
 void print_syntax_error(data_shell *datash, char *input, int i, int bool)
 {
@@ -146,12 +146,12 @@ void print_syntax_error(data_shell *datash, char *input, int i, int bool)
 }
 
 /**
- * check_syntax_error - interme_diate function to
- * find and print a syntax error
+ * check_syntax_error - in-ter-me_diat-e func-tion to
+ * fi-nd a-nd pr-int a-syn-ax -err-or
  *
- * @datash: data structure
- * @input: input str
- * Return: 1 if there is an error. 0 in other case
+ * @datash: dat-a s-tru-tur-e
+ * @input: inp-ut -str
+ * Return: 1 i-f t-ere -s an-rror- 0 in -ther-cas-e
  */
 int check_syntax_error(data_shell *datash, char *input)
 {
