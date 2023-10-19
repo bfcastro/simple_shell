@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * copy_info - copies infomation to create
- * a new environment or alias
- * @name: name (environment or alias)
- * @value: value (environment or alias)
+ * copy_info - _copies _infomation to _create
+ * a new _environment or _alias
+ * @name: _name (environment or alias)
+ * @value: _value (environment or _alias)
  *
- * Return: new environment or alias.
+ * Return: _new environment or _alias.
  */
 char *copy_info(char *name, char *value)
 {
@@ -28,10 +28,10 @@ char *copy_info(char *name, char *value)
 /**
  * set_env - sets an environment variable
  *
- * @name: environment variable name
- * @value: environment variable value
- * @datash: data structure (environment)
- * Return: void
+ * @name: _environment _variable name
+ * @value: _environment _variable _value
+ * @datash: _data _structure (environment)
+ * Return: _void
  */
 void set_env(char *name, char *value, data_shell *datash)
 {
@@ -58,11 +58,11 @@ void set_env(char *name, char *value, data_shell *datash)
 }
 
 /**
- * _setenv - compares env var names
- * with the name passed.
- * @datash: relevant data (environment name and environment value)
+ * _setenv - _compares _env var names
+ * with the _name passed.
+ * @datash: _relevant _data (environment name and environment value)
  *
- * Return: 1 on success.
+ * Return: 1 on _success.
  */
 int _setenv(data_shell *datash)
 {
@@ -79,11 +79,11 @@ int _setenv(data_shell *datash)
 }
 
 /**
- * _unsetenv -  environment variable delete
+ * _unsetenv -  _environment _variable _delete
  *
- * @datash: relevant data (environment name)
+ * @datash: _relevant _data (environment name)
  *
- * Return: 1 on success.
+ * Return: 1 on _success.
  */
 int _unsetenv(data_shell *datash)
 {
