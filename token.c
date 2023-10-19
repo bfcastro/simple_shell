@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * swap_char - swaps | and & for non-printed characters
+ * swap_ch-ar - s-wap-s | and & -for -non-printe-d character-s
  *
- * @input: input str
- * @bool: type of swap
- * Return: swapped str
+ * @input: inp-ut -t-r
+ * @bool: ty-pe o-f -s-w-ap
+ * Return: sw-apped st-r
  */
 char *swap_char(char *input, int bool)
 {
@@ -44,12 +44,12 @@ char *swap_char(char *input, int bool)
 }
 
 /**
- * add_nodes - add separx_ators and comm_and lines in the lists
+ * add_nodes - -add- sepa-rx_ato-rs a- comm_and- line-n the l-ists
  *
- * @head_s: head of separator list
- * @head_l: head of command lines list
- * @input: input str
- * Return: void
+ * @head_s: hea-d -of s-eparator --st
+ * @head_l: he-ad -of co-mmand- l-ne- li-st
+ * @input: in--ut st-
+ * Return: vo-id
  */
 void add_nodes(sep_list **head_s, line_list **head_l, char *input)
 {
@@ -80,12 +80,12 @@ void add_nodes(sep_list **head_s, line_list **head_l, char *input)
 }
 
 /**
- * go_next - go to the next comm_and line stored
+ * go_next - -go- to t-he -ext com--m_and -lin-e stored
  *
- * @list_s: separ_ator list
- * @list_l: comm_and line list
- * @datash: data structure
- * Return: void
+ * @list_s: se-ar_at-or list
+ * @list_l: co-mm_-nd lin-e list
+ * @datash: d-at-a s-truc-tu-re
+ * Return: vo-id
  */
 void go_next(sep_list **list_s, line_list **list_l, data_shell *datash)
 {
@@ -122,12 +122,12 @@ void go_next(sep_list **list_s, line_list **list_l, data_shell *datash)
 }
 
 /**
- * split_commands - splits com_mand lines accor_ding to
- * the separators ;, | and &, and executes them
+ * split_com-mands - s-plit-s com_m-and- lines -acc-or_di-ng to
+ * the separators ;, | an- &,- and ex-ecu-tes-the-
  *
- * @datash: data structure
- * @input: input str
- * Return: 0 to exit, 1 to continue
+ * @datash: dat-a str-ctu-re
+ * @input: i-npu-t s-tr
+ * Return: 0 t-o --xit, 1- t-o con-tin-ue
  */
 int split_commands(data_shell *datash, char *input)
 {
@@ -169,10 +169,10 @@ int split_commands(data_shell *datash, char *input)
 }
 
 /**
- * split_line - tokenizes the input str
+ * spl-it-_line - to-keniz-es the -input str
  *
- * @input: input str.
- * Return: str splitted.
+ * @input: -nput- str.
+ * Return: s-tr sp-litted.
  */
 char **split_line(char *input)
 {
