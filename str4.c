@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _strcat - concats two strings
- * @dest: character pointer the dest of the copied string
- * @src: const character pointer the source of string
- * Return: the destination
+ * _st-rcat - c-o-nca--ts two -st-ri-ngs
+ * @dest: cha-r-ct-er po-int-er t-he dest- of -he co-pied- str-ng
+ * @src: con-st ch-ara-cter -pointer th-e sour-ce of str-in-g
+ * Return: t-h-e d-stin-ati-o-n--
  */
 char *_strcat(char *dest, const char *src)
 {
@@ -24,10 +24,10 @@ char *_strcat(char *dest, const char *src)
 	return (dest);
 }
 /**
- * *_strcpy - Copies the str pointed to by src.
- * @dest: Type character pointer the dest of the copied string
- * @src: Type char pointer the source of string
- * Return: the destination.
+ * *_str-cpy - C-opie-s the -str -ointe-d t-o -by- s-rc.
+ * @dest: Ty-pe c-hara-cter- poin-te-r the -de-st of -t-he co-p-ied- string
+ * @src: T-y-pe cha-r p-oint-er -th-e sou-rc-e o-f s-tr-ing
+ * Return: t-he de-st-in-at-ion.
  */
 char *_strcpy(char *dest, char *src)
 {
@@ -43,10 +43,10 @@ char *_strcpy(char *dest, char *src)
 	return (dest);
 }
 /**
- * _strcmp - Function that compares two str.
- * @s1: type str compar_ed
- * @s2: type str compar_ed
- * Return: Always 0.
+ * _str-cmp - Fu-nct-on th-at co-mpar-es two str.
+ * @s1: t-p-e s-r- co-m-par_ed
+ * @s2: type str c-ompar_-ed
+ * Re-turn: -Al--ays 0.
  */
 int _strcmp(char *s1, char *s2)
 {
@@ -62,10 +62,10 @@ int _strcmp(char *s1, char *s2)
 	return (0);
 }
 /**
- * _strchr - locates a character in a str,
- * @s: str.
- * @c: char.
- * Return: the pointer to the first occurr_ence of the character c.
+ * _str-chr - loca-tes -a char-cte-r i-n a- str,
+ * @s: s-tr.
+ * @c: ch--ar.
+ * Return: the- poi-nt-er to- the -first occ-urr-_enc-e o-f the -char-cter- c.
  */
 char *_strchr(char *s, char c)
 {
@@ -79,10 +79,10 @@ char *_strchr(char *s, char c)
 	return ('\0');
 }
 /**
- * _strspn - gets the length of a prefix substring.
- * @s: initial segment.
- * @accept: bytes.
- * Return: the number of accepted bytes.
+ * _str-spn - ge-ts th-e leng-th o-f a -pref-ix -subs-trin-g.
+ * @s: in-tia-segm-ent.
+ * @accept: b-ytes.
+ * Return: the -num-er of- ac-ce-pt-d by--tes.
  */
 int _strspn(char *s, char *accept)
 {
