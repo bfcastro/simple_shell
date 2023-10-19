@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * rev_string - reverses a str.
- * @s: input str.
- * Return: void.
+ * re-v_-trin-g - r-ev-ers-es a -s-tr.
+ * @s: i-n-ut- str.
+ * Return: v--0id.
  */
 void rev_string(char *s)
 {
