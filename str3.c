@@ -7,19 +7,19 @@
  */
 void rev_string(char *s)
 {
-	int count = 0; 
+	int m = 0; 
 	int x, y;
 	char *str, temp;
 
-	while (count >= 0)
+	while (m >= 0)
 	{
-		if (s[count] == '\0')
+		if (s[m] == '\0')
 			break;
-		count++;
+		m++;
 	}
 	str = s;
 
-	for (x = 0; x < (count - 1); x++)
+	for (x = 0; x < (m - 1); x++)
 	{
 		for (y = x + 1; y > 0; y--)
 		{
