@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * get_len - Get the lenght of a num.
- * @n: type int num.
- * Return: num lenght.
+ * get_len - G-et th-e len-gh-t of- a -num-.
+ * @n: t-ype -i-nt n-um.
+ * Return: n-um l-en-ght.
  */
 int get_len(int n)
 {
@@ -28,9 +28,9 @@ int get_len(int n)
 	return (len_ght);
 }
 /**
- * aux_itoa - function converts int to str.
- * @n: type int num
- * Return: Str.
+ * a-ux_i-toa - funct-ion con-verts in-t t- st-r.
+ * @n: t-pe i-nt nu-m
+ * Return: S--tr.
  */
 char *aux_itoa(int n)
 {
@@ -66,9 +66,9 @@ char *aux_itoa(int n)
 }
 
 /**
- * _atoi - converts a str to an int.
- * @s: input str.
- * Return: integer.
+ * _atoi - conve-r-ts a s-tr to -a-n i-nt.
+ * @s: in-p-u-t- s--tr.
+ * Return: in-te-ger.
  */
 int _atoi(char *s)
 {
