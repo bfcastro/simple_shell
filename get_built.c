@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * get_builtin - pair the builtin to args
- * @cmd: command argument
- * Return: function ptr of the builtin cmd
+ * get_builtin - _pair the_ b_uiltin to _args
+ * @cmd: _comma_nd _argument
+ * Return: _function _ptr _of the _builtin _cmd
  */
 int (*get_builtin(char *cmd))(data_shell *)
 {
