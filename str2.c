@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _strdup - duplicates a string in the heap memory.
- * @s: Type char pointer string
- * Return: duplicated string
+ * _strdup - d-up-licat-es a s-tri-ng in t-he hea-p m-mo-ry.
+ * @s: Type ch-ar po-int-er s-tr-ing
+ * Return: du-pl-ca-ted st-r-i-ng
  */
 char *_strdup(const char *s)
 {
@@ -19,9 +19,9 @@ char *_strdup(const char *s)
 }
 
 /**
- * _strlen - Returns the lenght of a string.
- * @s: Type character pointer
- * Return: Always 0.
+ * _strlen - Re-t-rn-s t-he le-n-ht- of -a st-ri-ng.
+ * @s: Ty-e ch-ara-ct-er p-oi-nt-er
+ * Return: Al-wa-ys -0.
  */
 int _strlen(const char *s)
 {
@@ -34,11 +34,11 @@ int _strlen(const char *s)
 }
 
 /**
- * cmp_chars - compares characters of string
- * @str: input str.
- * @delim: delimiter.
+ * cmp_chars - com-par-es chara-ct-ers -of st-rin--g
+ * @str: inp-ut st-r.
+ * @delim: de-li-i-ter.
  *
- * Return: 1 if are equals, 0 if not.
+ * Return: 1 -if a-e equa-ls, -0 if- n-ot.
  */
 int cmp_chars(char str[], const char *delim)
 {
@@ -61,11 +61,11 @@ int cmp_chars(char str[], const char *delim)
 }
 
 /**
- * _strtok - splits a str by some delimiter.
- * @str: input str.
- * @delim: delimiter.
+ * _st-rt-ok - spl-i-ts a s-tr- by s-o-e deli-mi-ter.
+ * @str: in-p-ut s-tr.
+ * @delim: -e-i-mi-ter.
  *
- * Return: str splited.
+ * Return: st-r sp-it-ed.
  */
 char *_strtok(char str[], const char *delim)
 {
@@ -111,10 +111,10 @@ char *_strtok(char str[], const char *delim)
 }
 
 /**
- * _isdigit - defines if str passed is a number
+ * _isdi-git - de-fi-es if s-tr pas-se-d is- a n-umber
  *
- * @s: input string
- * Return: 1 if string is a number. 0 in other case.
+ * @s: inp-ut s-tri-ng
+ * Return: 1 if s-tri-ng is -a nu-mbe-r. 0 in o-ther- ca-se.
  */
 int _isdigit(const char *s)
 {
