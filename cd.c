@@ -3,7 +3,7 @@
 /**
  * cd_dot - _changes _path _back to the _parent _directory
  *
- * @datash: _relevant _data (environment)
+ * @datash: _relev-ant _data (environment)
  *
  * Return: _void
  */
@@ -52,19 +52,19 @@ void cd_dot(data_shell *datash)
 }
 
 /**
- * cd_to - changes directory to given path by user
- * @datash: relevant data (directories)
- * Return: void
+ * cd_to - cha-nges direct-ory to gi-ven path -by user
+ * @datash: releva-nt d-ta (direc-tories)
+ * Return: vo-id
  */
 void cd_to(data_shell *datash)
 {
 	char pwd[PATH_MAX];
-	char *dir, *cp_pwd, *cp_dir;
+	char *_dir, *cp_pwd, *cp_dir;
 
 	getcwd(pwd, sizeof(pwd));
 
-	dir = datash->args[1];
-	if (chdir(dir) == -1)
+	_dir = datash->args[1];
+	if (chdir(_dir) == -1)
 	{
 		get_error(datash, 2);
 		return;
@@ -73,7 +73,7 @@ void cd_to(data_shell *datash)
 	cp_pwd = _strdup(pwd);
 	set_env("OLDPWD", cp_pwd, datash);
 
-	cp_dir = _strdup(dir);
+	cp_dir = _strdup(_dir);
 	set_env("PWD", cp_dir, datash);
 
 	free(cp_pwd);
@@ -81,7 +81,7 @@ void cd_to(data_shell *datash)
 
 	datash->status = 0;
 
-	chdir(dir);
+	chdir(_dir);
 }
 
 /**
