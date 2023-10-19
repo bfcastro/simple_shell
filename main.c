@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * free_data - frees data structure
+ * free_data - frees __data structure
  *
- * @datash: data structure
- * Return: void
+ * @datash: data __structure
+ * Return: +void
  */
 void free_data(data_shell *datash)
 {
@@ -20,11 +20,11 @@ void free_data(data_shell *datash)
 }
 
 /**
- * set_data - data structure initialization
+ * set_data - __data __structure __initialization
  *
- * @datash: data structure
- * @av: argument array
- * Return: void
+ * @datash: __data __structure
+ * @av: __argument __array
+ * Return: __void
  */
 void set_data(data_shell *datash, char **av)
 {
@@ -51,12 +51,12 @@ void set_data(data_shell *datash, char **av)
 }
 
 /**
- * main - Entry point
+ * main - __Entry point
  *
- * @ac: argument counter
- * @av: argument array
+ * @ac: a__rgument __counter
+ * @av: __argument __array
  *
- * Return: 0 on success.
+ * Return: 0 on __success.
  */
 int main(int ac, char **av)
 {
