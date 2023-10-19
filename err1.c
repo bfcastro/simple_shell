@@ -10,12 +10,12 @@ char *error_env(data_shell *datash)
 	int leng_th;
 	char *error;
 	char *ver_str;
-	char *msg;
+	char *_msg;
 
 	ver_str = aux_itoa(datash->counter);
-	msg = ": Unable to add/remove from environment\n";
+	_msg = ": Unable to add/remove from environment\n";
 	leng_th = _strlen(datash->av[0]) + _strlen(ver_str);
-	leng_th += _strlen(datash->args[0]) + _strlen(msg) + 4;
+	leng_th += _strlen(datash->args[0]) + _strlen(_msg) + 4;
 	error = malloc(sizeof(char) * (leng_th + 1));
 	if (error == 0)
 	{
@@ -29,7 +29,7 @@ char *error_env(data_shell *datash)
 	_strcat(error, ver_str);
 	_strcat(error, ": ");
 	_strcat(error, datash->args[0]);
-	_strcat(error, msg);
+	_strcat(error, _msg);
 	_strcat(error, "\0");
 	free(ver_str);
 
@@ -45,25 +45,25 @@ char *error_path_126(data_shell *datash)
 {
 	int leng_th;
 	char *ver_str;
-	char *error;
+	char *_error;
 
 	ver_str = aux_itoa(datash->counter);
 	leng_th = _strlen(datash->av[0]) + _strlen(ver_str);
 	leng_th += _strlen(datash->args[0]) + 24;
-	error = malloc(sizeof(char) * (leng_th + 1));
-	if (error == 0)
+	_error = malloc(sizeof(char) * (leng_th + 1));
+	if (_error == 0)
 	{
-		free(error);
+		free(_error);
 		free(ver_str);
 		return (NULL);
 	}
-	_strcpy(error, datash->av[0]);
-	_strcat(error, ": ");
-	_strcat(error, ver_str);
-	_strcat(error, ": ");
-	_strcat(error, datash->args[0]);
-	_strcat(error, ": Permission denied\n");
-	_strcat(error, "\0");
+	_strcpy(_error, datash->av[0]);
+	_strcat(_error, ": ");
+	_strcat(_error, ver_str);
+	_strcat(_error, ": ");
+	_strcat(_error, datash->args[0]);
+	_strcat(_error, ": Permission denied\n");
+	_strcat(_error, "\0");
 	free(ver_str);
-	return (error);
+	return (_error);
 }
